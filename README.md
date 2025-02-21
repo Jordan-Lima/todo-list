@@ -9,4 +9,3 @@ O projeto tem como foco a criação de uma aplicação de uma lista de tarefa.
   <img src="https://github.com/user-attachments/assets/9b186bcf-c369-4696-b8d7-e1fa8b54814b" width="100px">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc4XOdTwDFjrNDoRbCH2vDqCNCKD9u8zVr_g&s" width="100px">
 </h1>
-
