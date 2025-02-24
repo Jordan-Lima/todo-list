@@ -23,6 +23,7 @@ function App() {
         setTarefasPendentes([...tarefasPendentes, inputValue.trim()]);
         setInputValue("");
         setIsWrite(false);
+        selecionaAtividade
         setSelecionaAtividade(null);
       }
     } else if (searchInput && inputValue.trim()) {
@@ -99,7 +100,7 @@ function App() {
           />
         </button>
       </div>
-      <div className="grid grid-cols-3 gap-4 mx-auto p-4">
+      <div className="grid lg:grid-cols-3 gap-4 mx-auto p-4">
         {/* Coluna 1: Tarefas Pendentes */}
         <ColunaTarefas
           titulo="Tarefas Pendentes"
