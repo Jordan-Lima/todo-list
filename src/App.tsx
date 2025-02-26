@@ -86,7 +86,7 @@ function App() {
           className="min-w-2xs bg-amber-300 rounded-3xl p-2 mx-2 border-2 transition-all duration-500"
         />
         <button
-          className={`${isWrite ? "bg-blue-300" : "bg-gray-500"} rounded-full w-10 h-10 border-2 transition-all duration-500`}
+          className={`${isWrite ? "bg-blue-300 cursor-pointer" : "bg-gray-500"} rounded-full w-10 h-10 border-2 transition-all duration-500`}
           onClick={handleButtonClick}
         >
           <img

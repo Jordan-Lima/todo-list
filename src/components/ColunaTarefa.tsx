@@ -25,7 +25,7 @@ return (
           // Alterna a classe de altura
         setHeight(height === 'flex' ? 'hidden' : 'flex');
         }}
-        className={`flex justify-center text-2xl pt-7 pb-4 cursor-pointer`}
+        className={`flex justify-center text-2xl pt-7 pb-4 cursor-default`}
     >
         {titulo}
         {<img className={`lg:hidden h-7.5 pl-2 rotate-${height === "flex" ? "180" : "90"} transform transition-transform ease-in`} src="https://cdn-icons-png.flaticon.com/512/16026/16026407.png"></img>}
@@ -41,13 +41,13 @@ return (
             {onMove && (
                 <input
                 type="checkbox"
-                className="mr-2"
+                className="mr-2 cursor-pointer"
                 onChange={() => onMove(index)}
                 />
             )}
             <button
                 onClick={() => onDelete(index)}
-                className="text-red-500 hover:text-red-700 transition-all duration-500"
+                className="text-red-500 hover:text-red-700 transition-all duration-500 cursor-pointer"
             >
                 x
             </button>
